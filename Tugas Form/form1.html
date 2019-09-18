@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FORM PENDAFTARAN</title>
+  <style type="text/css">
+  	body {
+  		background: url("a.jpg");
+  		background-size: cover;
+  	}
+	.box{
+		margin: 28px auto;
+		left: 50%;
+		top: 50%;
+		width: 600px;
+		height: 800px;
+		background-color: grey;
+		opacity: 0.9;	
+		padding: 20px;
+	}
+
+	.box input[type="radio"]{
+		padding: 10px 30px;
+		margin-bottom: 20px;
+	}
+	.box input[type="submit"]{
+		margin-bottom: 5px;
+		margin-left: 500px;
+		padding-left: 5px;
+		height: 40px;
+		width: 80px;
+		border-radius: 15px;
+	}
+	.boxinput{
+		height: 30px;
+		width: 580px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		border-radius: 20px;
+	}
+	.box label{
+		color: black;
+		padding-top: 20px;
+		font-size: 20px;
+	}
+	h1{
+		text-align: center;
+		color: black;
+	}
+	.font{
+		color: white;
+		left: 0;
+		bottom: 0;
+		position: fixed;
+		background: none;
+		border: 2px solid white;
+		border-radius: 5px;
+		padding: 10px;
+		margin: 5px;
+	}
+	img{
+		width: 100px;
+		height: 100px;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		border: solid;
+		border-radius: 10px;
+		border-color: white;
+	}
+</style>
+</head>
+<body>
+  <div class="box">
+    <h1>PENDAFTARAN</h1>
+    <label>Nama</label><br>
+    <input class="boxinput" type="text" name="nama" placeholder="Nama Lengkap"><br>
+    <label>NIM</label><br>
+    <input class="boxinput" type="number" name="nim" placeholder="NIM"><br>
+    <label>Jenis Kelamin</label>
+	<input type="radio" name="gender" value="male"> Laki Laki
+	<input type="radio" name="gender" value="female"> Perempuan
+	<br>
+    <label>Kelas</label><br>
+    <input class="boxinput" type="text" name="kls" placeholder="Kelas"><br>
+    <label>Nama Ortu</label><br>
+    <input class="boxinput" type="text" name="kls" placeholder="Kelas"><br>
+    <label>Alamat</label><br>
+    <input class="boxinput" type="textarea" name="alamat" placeholder="Alamat"><br>
+    <label>No Hp</label><br>
+    <input class="boxinput" type="number" name="nohp" placeholder="No Hp"><br>
+    <label>Tanggal Lahir</label><br>
+    <input class="boxinput" type="date" name="tggl" placeholder="Tanggal Lahir"><br>
+    <input type="submit" name="Submit">
+    </div>
+    	<div class="font">
+    		Nama : Najmudin Rajan<br>
+    		NIM  : 182410103029
+    	</div>
+    	<img src="ganteng.jpg">
+</body>
+</html>
